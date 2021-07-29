@@ -1,4 +1,5 @@
 USE codeup_test_db;
+TRUNCATE albums1;
 
 INSERT INTO albums1 (artist, name, release_date, sales, genre)
 VALUES ('Michael Jackson', 'Thriller', 1982, 47.9, 'Pop, post-disco, rock');
@@ -52,3 +53,4 @@ VALUES ('Various Artists','Grease: Original Soundtrack', 1978 , 14.4,'Rock n Rol
        ('Guns n Roses', 'Appetite for Destruction', 1987, 21.9, 'Hard Rock'),
        ('Elton John', 'Goodbye Yellow Brick Road', 1973, 8.5, 'Rock, pop rock');
 
+DESCRIBE albums1;

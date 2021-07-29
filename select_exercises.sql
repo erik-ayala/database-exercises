@@ -13,7 +13,7 @@ SELECT * FROM albums1 WHERE release_date BETWEEN 1990 AND 2000;
 SELECT * FROM albums1 WHERE sales < 20;
 
 SELECT name
-FROM albums1ex
+FROM albums1
 WHERE genre = 'Rock';
 
 
